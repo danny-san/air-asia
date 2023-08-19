@@ -5,122 +5,163 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная страница — Air Asia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
     <div class="wrapper">
 
-        <header class="header">
-            <a href="" class="header__logo-link">
-                <img src="" alt="Логотип Air Asia" class="header_logo-img">
-            </a>
+        <section class="hero">
+            <div class="container">
+                <header class="header">
+                    <a href="/" class="logo">
+                        <img src="./img/aa-logo.png" alt="Логотип Air Asia" class="logo__img">
+                    </a>
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
+                            <li class="menu__item menu__item_active"><a href="#" class="menu__link">Услуги</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
+                        </ul>
+                    </nav>
 
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="" class="nav__link">Главная</a></li>
-                    <li class="nav__item"><a href="" class="nav__link">Услуги</a></li>
-                    <li class="nav__item"><a href="" class="nav__link">Отзывы</a></li>
-                </ul>
-            </nav>
+                    <address class="contacts">
+                        <a href="tel:+78007003030" class="contacts__tel">8 800 700 30 30</a>
+                        <div class="contacts__dropdown-title">График работы</div>
+                    </address>
+                </header>
 
-            <div class="work-info">
-                <span class="work-info__tel">8 800 700 30 30</span>
-                <span class="work-info__hours">График работы</span>
-            </div>
-        </header>
-
-        <main class="main-content">
-            <h1 class="main-content__h1">Авторские туры по Азии</h1>
-            <span class="main-content__bio">Открой для себя Азию</span>
-            <button class="main-content__button">ПОДРОБНЕЕ</button>
-
-            <h2 class="main-content__h2">Горящие туры</h2>
-
-            <div class="tours">
-                <ul class="tours__list">
-                    <li class="tours__item">
-                        <img src="" alt="" class="tours__img">
-                        <h3 class="tours__h3">Таиланд</h3>
-                        <img src="" alt="" class="tours__icon"><span class="tours__brief">7-12 ночей</span><img src=""
-                            alt="" class="tours__icon"><span class="tours__brief">Завтраки</span>
-                        <p class="tours__info">Равным образом постоянное обеспечение нашей деятельности позволяет
-                            оценить значение систем массового участия.</p>
-                        <button class="tours__button">СМОТРЕТЬ</button>
-                    </li>
-                    <li class="tours__item">
-                        <img src="" alt="" class="tours__img">
-                        <h3 class="tours__h3">Бали</h3>
-                        <img src="" alt="" class="tours__icon"><span class="tours__brief">7-12 ночей</span><img src=""
-                            alt="" class="tours__icon"><span class="tours__brief">Завтраки</span>
-                        <p class="tours__info">Равным образом постоянное обеспечение нашей деятельности позволяет
-                            оценить значение систем массового участия.</p>
-                        <button class="tours__button">СМОТРЕТЬ</button>
-                    </li>
-                    <li class="tours__item">
-                        <img src="" alt="" class="tours__img">
-                        <h3 class="tours__h3">Индонезия</h3>
-                        <img src="" alt="" class="tours__icon"><span class="tours__brief">7-12 ночей</span><img src=""
-                            alt="" class="tours__icon"><span class="tours__brief">Завтраки</span>
-                        <p class="tours__info">Равным образом постоянное обеспечение нашей деятельности позволяет
-                            оценить значение систем массового участия.</p>
-                        <button class="tours__button">СМОТРЕТЬ</button>
-                    </li>
-                </ul>
-            </div>
-
-            <h2 class="main-content__h2">Новости и акции</h2>
-
-            <div class="news">
-                <ul class="news__list">
-                    <li class="news__item">
-                        <span class="news__date">Декабрь 2019</span>
-                        <h3 class="news__h3">Дешевые путевки на Новый Год!</h3>
-                        <span class="news__info">Проведи новый год в Тайланде</span>
-                    </li>
-                    <li class="news__item">
-                        <span class="news__date">Декабрь 2019</span>
-                        <h3 class="news__h3">Акция для серфенгистов!</h3>
-                        <span class="news__info">В сезон больших волн скидка на путевку в Тайланд на остров
-                            серфингистов. Удачного пути!</span>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="news-nav">
-                <span class="news-nav__outof">Страница 1 из 7</span>
-                <ul class="news-nav__list">
-                    <li class="news-nav__page">1</li>
-                    <li class="news-nav__page">2</li>
-                    <li class="news-nav__page">3</li>
-                    <li class="news-nav__page">4</li>
-                    <li class="news-nav__page">5</li>
-                    <li class="news-nav__page">6</li>
-                    <li class="news-nav__page">7</li>
-                </ul>
-            </div>
-
-            <div class="about-us">
-                <img src="" alt="" class="about-us__back-img">
-                <div class="about-us__card">
-                    <h2 class="about-us__h2">О нас</h2>
-                    <p class="about-us__info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, eum
-                        consequuntur repellat nihil ducimus, delectus molestias eius, quasi culpa ad facere soluta
-                        officiis voluptas fugit. Eos officia accusantium similique consectetur.</p>
-                    <button class="main-content__button">ПОДРОБНЕЕ</button>
+                <div class="hero__content">
+                    <div class="hero__text-section">
+                        <h1 class="hero__title">Авторские туры по Азии</h1>
+                        <h4 class="hero__subtitle">Открой для себя Азию</h4>
+                        <a href="#" class="btn">Подробнее</a>
+                    </div>
                 </div>
             </div>
-        </main>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2 class="section__title">Горящие туры</h2>
+
+                <ul class="tours">
+                    <li class="tours__item">
+                        <div class="tours__header"></div>
+                        <div class="tours__content">
+                            <h3 class="tours__title">Таиланд</h3>
+                            <div class="tours__conditions">
+                                <div class="tours__conditions-cell">
+                                    <img src="img/calendar.png" alt="" class="tours__icon">
+                                    <div class="conditions__item">7-12 ночей</div>
+                                </div>
+                                <div class="tours__conditions-cell">
+                                    <img src="img/meal.png" alt="" class="tours__icon">
+                                    <div class="conditions__item">Завтраки</div>
+                                </div>
+                            </div>
+                            <div class="tours__info">Равным образом постоянное обеспечение нашей деятельности позволяет
+                                оценить значение систем массового участия.</div>
+                        </div>
+                        <a href="#" class="btn tours__btn">Смотреть</a>
+                    </li>
+
+                    <li class="tours__item">
+                        <div class="tours__header"></div>
+                        <div class="tours__content">
+                            <h3 class="tours__title">Бали</h3>
+                            <div class="tours__conditions">
+                                <div class="tours__conditions-cell">
+                                    <img src="img/calendar.png" alt="" class="tours__icon">
+                                    <div class="conditions__item">7-12 ночей</div>
+                                </div>
+                                <div class="tours__conditions-cell">
+                                    <img src="img/meal.png" alt="" class="tours__icon">
+                                    <div class="conditions__item">Завтраки</div>
+                                </div>
+                            </div>
+                            <div class="tours__info">Равным образом постоянное обеспечение нашей деятельности позволяет
+                                оценить значение систем массового участия.</div>
+                        </div>
+                        <a href="#" class="btn tours__btn">Смотреть</a>
+                    </li>
+
+                    <li class="tours__item">
+                        <div class="tours__header"></div>
+                        <div class="tours__content">
+                            <h3 class="tours__title">Индонезия</h3>
+                            <div class="tours__conditions">
+                                <div class="tours__conditions-cell">
+                                    <img src="img/calendar.png" alt="" class="tours__icon">
+                                    <div class="conditions__item">7-12 ночей</div>
+                                </div>
+                                <div class="tours__conditions-cell">
+                                    <img src="img/meal.png" alt="" class="tours__icon">
+                                    <div class="conditions__item">Завтраки</div>
+                                </div>
+                            </div>
+                            <div class="tours__info">Равным образом постоянное обеспечение нашей деятельности позволяет
+                                оценить значение систем массового участия.</div>
+                        </div>
+                        <a href="#" class="btn tours__btn">Смотреть</a>
+                    </li>
+                </ul>
+
+                <h2 class="main-content__h2">Новости и акции</h2>
+                <div class="news">
+                    <ul class="news__list">
+                        <li class="news__item">
+                            <span class="news__date">Декабрь 2019</span>
+                            <h3 class="news__h3">Дешевые путевки на Новый Год!</h3>
+                            <span class="news__info">Проведи новый год в Тайланде</span>
+                        </li>
+                        <li class="news__item">
+                            <span class="news__date">Декабрь 2019</span>
+                            <h3 class="news__h3">Акция для серфенгистов!</h3>
+                            <span class="news__info">В сезон больших волн скидка на путевку в Тайланд на остров
+                                серфингистов. Удачного пути!</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="news-nav">
+                    <span class="news-nav__outof">Страница 1 из 7</span>
+                    <ul class="news-nav__list">
+                        <li class="news-nav__page">1</li>
+                        <li class="news-nav__page">2</li>
+                        <li class="news-nav__page">3</li>
+                        <li class="news-nav__page">4</li>
+                        <li class="news-nav__page">5</li>
+                        <li class="news-nav__page">6</li>
+                        <li class="news-nav__page">7</li>
+                    </ul>
+                </div>
+                <div class="about-us">
+                    <img src="" alt="" class="about-us__back-img">
+                    <div class="about-us__card">
+                        <h2 class="about-us__h2">О нас</h2>
+                        <p class="about-us__info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur,
+                            eum
+                            consequuntur repellat nihil ducimus, delectus molestias eius, quasi culpa ad facere soluta
+                            officiis voluptas fugit. Eos officia accusantium similique consectetur.</p>
+                        <button class="main-content__button">ПОДРОБНЕЕ</button>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <footer class="footer">
-            <a href="" class="header__logo-link">
+            <a href="" class="header__logo">
                 <img src="" alt="Логотип Air Asia" class="header_logo-img">
             </a>
 
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="" class="nav__link">Главная</a></li>
-                    <li class="nav__item"><a href="" class="nav__link">Услуги</a></li>
-                    <li class="nav__item"><a href="" class="nav__link">Отзывы</a></li>
+            <nav class="menu-1">
+                <ul class="menu-1__list">
+                    <li class="menu-1__item"><a href="" class="menu__link">Главная</a></li>
+                    <li class="menu-1__item"><a href="" class="menu__link">Услуги</a></li>
+                    <li class="menu-1__item"><a href="" class="menu__link">Отзывы</a></li>
                 </ul>
             </nav>
 
