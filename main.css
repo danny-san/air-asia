@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.42em;
+    background: #001821;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: url(img/main.jpg);
+}
+
+a {
+    color: inherit;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+    font-weight: normal;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1141px;
+}
+
+.header {
+    height: 120px;
+    position: relative;
+    margin-bottom: 130px;
+}
+
+.logo {
+    display: block;
+    position: absolute;
+    top: 21px;
+    left: 0;
+}
+
+.logo__img {
+    width: 85px;
+    height: 36px;
+}
+
+.menu {
+    position: absolute;
+    top: 30px;
+    left: 164px;
+}
+
+.contacts {
+    position: absolute;
+    top: 27px;
+    right: 0;
+    font-style: normal;
+    text-align: right;
+}
+
+.menu__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 51px;
+}
+
+menu__item:last-child {
+    margin-right: 0;
+}
+
+.menu__item_active .menu__link {
+    color: #DA0100;
+}
+
+.menu__link {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.menu__link:hover {
+    color: #DA0100;
+}
+
+
+.contacts__tel {
+    text-decoration: none;
+    font-size: 26px;
+}
+
+.contacts__dropdown-title {
+    font-size: 13px;
+    text-decoration: underline;
+    margin-top: -7px;
+    padding-right: 2px;
+}
+
+.header {
+    margin-bottom: 68px;
+}
+
+.hero__text-section {
+    width: 511px;
+}
+
+.hero__title {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 28px;
+}
+
+.hero__subtitle {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background: #F5170E;
+    border-radius: 35px;
+    padding: 17px 40px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #DA0100;
+    box-shadow: 0px 2px 4px 0px rgba(218, 1, 0, 0.30); 
+}
