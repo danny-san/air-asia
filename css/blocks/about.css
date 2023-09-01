@@ -1,0 +1,48 @@
+.about {
+    display: flex;
+}
+
+.about::before, .about__content{
+    border-radius: 5px;
+}
+
+.about::before {
+    display: block;
+    content: "";
+    width: 490px;
+    height: 505px;
+    background: url("/img/cyclist.jpg") center center / cover no-repeat;
+}
+
+.about__content {
+    background: url("/img/about-us.jpg") top right / cover no-repeat;
+    max-width: 785px;
+    min-height: 455px;
+    padding: 83px 81px 66px;
+    margin-left: -137px;
+    margin-top: 99px;
+}
+
+.about__title {
+    color: #000;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 51px; 
+}
+
+.about__info {
+    color: #060606;
+    font-size: 16px;
+    font-weight: 400; 
+    line-height: 1.7em;
+    padding-right: 121px;
+    margin-bottom: 40px;
+}
+
+.about__info p {
+    margin-bottom: 20px;
+}
+
+.about__info p:last-child {
+    margin-bottom: 0;
+}
