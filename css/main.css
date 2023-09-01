@@ -15,7 +15,7 @@
 
 
 .wrapper-main-page {
-    background: url("/img/main.jpg") center top no-repeat, url("/img/main-bottom.jpg") center bottom 164px no-repeat;
+    background: url("../img/main.jpg") center top no-repeat, url("../img/main-bottom.jpg") center bottom 164px no-repeat;
     background-color: #001821;
     padding-top: 8px;
 }

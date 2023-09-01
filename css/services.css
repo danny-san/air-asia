@@ -12,6 +12,10 @@
 @import url('blocks/s-networks.css');
 
 
+.wrapper-services {
+    background: #001821 url("../img/elephant.jpg") center top no-repeat;
+}
+
 .page-content {
     background: #fff;
     color: #303030;
