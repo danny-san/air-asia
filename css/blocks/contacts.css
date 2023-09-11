@@ -1,6 +1,7 @@
 .contacts {
     font-style: normal;
     text-align: right;
+    position: relative;
 }
 
 .contacts__freecall {
@@ -24,4 +25,31 @@
     text-decoration: underline;
     margin-top: -7px;
     padding-right: 2px;
+    cursor: pointer;
+}
+
+.dropdown {
+    display: none;
+    width: 157px;
+    height: 68px;
+    border-radius: 5px;
+    position: absolute;
+    top: 48px;
+    left: 33px;
+    color: #1E1F20;
+    font-size: 13px;
+    font-weight: 700;
+    background-color: #CDD1D2;
+}
+
+.contacts__dropdown-title:hover+.dropdown {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 15px;
+}
+
+.dropdown p:last-child {
+    font-weight: 400;
 }

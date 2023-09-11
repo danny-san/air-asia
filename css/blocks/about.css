@@ -11,11 +11,11 @@
     content: "";
     width: 490px;
     height: 505px;
-    background: url("/img/cyclist.jpg") center center / cover no-repeat;
+    background: url("../../img/cyclist.jpg") center center / cover no-repeat;
 }
 
 .about__content {
-    background: url("/img/about-us.jpg") top right / cover no-repeat;
+    background: url("../../img/about-us.jpg") top right / cover no-repeat;
     max-width: 785px;
     min-height: 455px;
     padding: 83px 81px 66px;

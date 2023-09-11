@@ -39,6 +39,7 @@
     text-decoration: none;
     font-weight: 700;
     line-height: 32px;
+    transition: background-color .5s, color .5s;
 }
 
 .pager__item_active .pager__link, .pager__link:hover {

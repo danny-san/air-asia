@@ -11,11 +11,6 @@
 @import url('blocks/footer.css');
 @import url('blocks/s-networks.css');
 
-
-.wrapper-services {
-    background: #001821 url("../img/elephant.jpg") center top no-repeat;
-}
-
 .page-content {
     background: #fff;
     color: #303030;
@@ -25,7 +20,6 @@
 .services {
     margin-bottom: 63px;
 }
-
 
 .inner-section {
     background: #fff;
@@ -58,8 +52,4 @@
     height: 122px;
     align-items: center;
     justify-content: flex-start;
-}
-
-.inner-footer {
-    background: #001821;
 }

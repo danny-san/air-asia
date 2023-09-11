@@ -1,0 +1,230 @@
+@import url('layout/base.css');
+@import url('blocks/top-line.css');
+@import url('blocks/header.css');
+@import url('blocks/logo.css');
+@import url('blocks/menu.css');
+@import url('blocks/contacts.css');
+@import url('blocks/section.css');
+@import url('blocks/pager.css');
+@import url('blocks/about.css');
+@import url('blocks/footer.css');
+@import url('blocks/s-networks.css');
+
+.reviews__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.reviews__list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 557px;
+}
+
+.review {
+    color: #1A1B1E;
+    background-color: #F4F5F5;
+    padding-top: 51px;
+    padding-bottom: 33px;
+    padding-inline: 30px;
+    border-radius: 5px;
+}
+
+.review__bio {
+    display: flex;
+    align-items: center;
+    margin-bottom: 27px;
+}
+
+.review__photo {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-right: 22px;
+    overflow: hidden;
+}
+
+.review__name {
+    display: flex;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.9;
+    text-decoration: none;
+}
+
+.review__name:hover {
+    color: #2E77A4;
+    text-decoration: underline;
+}
+
+.review__name::after {
+    content: url('../img/reviews/vk-blue.png');
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 7px;
+}
+
+.destination {
+    display: inline-block;
+    color: #303030;
+    font-size: 13px;
+    font-weight: 400;
+    border-radius: 35px;
+    padding: 8px 17px;
+    background-color: #E7E7E7;
+}
+
+.destination_checked,
+.radio:checked+.destination {
+    background-color: #B9EAE4;
+}
+
+.review__content {
+    margin-bottom: 45px;
+}
+
+.review__heading {
+    color: #1A1B1E;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.4;
+    padding-left: 5px;
+    margin-bottom: 13px;
+}
+
+.review__text {
+    color: #818181;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.review__date time {
+    color: #1A1B1E;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.9;
+}
+
+.reviews {
+    margin-bottom: 88px;
+}
+
+.middle-line {
+    background: lightcoral url('../img/reviews/middle-line.jpg') center center no-repeat;
+}
+
+.middle-line__container {
+    height: 360px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.middle-line__text {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: normal;
+    max-width: 594px;
+    margin-right: 26px;
+}
+
+.middle-line__text p {
+    margin: 0;
+}
+
+.middle-line__img {
+    margin-top: auto;
+}
+
+.feedback {
+    background-color: #F4F5F5;
+    padding-top: 64px;
+}
+
+.feedback__heading {
+    color: #1A1B1E;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 57px;
+}
+
+.feedback__input-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 26px;
+    gap: 25px;
+}
+
+.feedback__input-row_last {
+    margin-bottom: 35px;
+}
+
+.feedback__input {
+    flex: 1;
+    padding: 20px 30px;
+    color: #1A1B1E;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 5px;
+    background: #fff;
+    border: none;
+}
+
+.feedback__input_textarea {
+    height: 235px;
+    padding: 30px;
+    resize: none;
+}
+
+.feedback__input:active,
+.feedback__input:focus {
+    border: 1px solid #F5170E;
+}
+
+.feedback__services {
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.feedback__question {
+    color: #1A1B1E;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 73px;
+}
+
+.feedback__radio-container {
+    margin-top: -12px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    gap: 9px;
+}
+
+.feedback__radio-item {
+    cursor: pointer;
+}
+
+.feedback__radio,
+.radio {
+    display: none;
+}
+
+.feedback__buttons-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 17px;
+    margin-bottom: 100px;
+}
