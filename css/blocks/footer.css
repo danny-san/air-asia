@@ -1,0 +1,35 @@
+.footer-container, .inner-footer {
+    margin-top: auto;
+}
+
+.inner-footer {
+    background: #001821;
+}
+
+.inner-footer__container {
+    padding: 45px 0;
+}
+
+.footer-container__content {
+    border-top: 1px solid rgba(255,255,255,.1);
+}
+
+.footer-container__section {
+    height: 120px;
+    margin-top: 8px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__col {
+    display: flex;
+    align-items: center;
+}
+
+.footer__col_align_right {
+    justify-content: flex-end;
+}

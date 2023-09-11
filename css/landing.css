@@ -1,0 +1,63 @@
+@import url(layout/base.css);
+
+.wrapper-landing {
+    background: #001821 url('../img/landing.jpg') center center no-repeat;
+    display: flex;
+}
+
+.welcome {
+    margin: auto;
+    background: url('../img/shades.png') top 15px center no-repeat;
+    text-align: center;
+    opacity: 0;
+    animation: zoom 1s ease-in-out;
+    animation-fill-mode: forwards;
+    /* external animation
+    animation: heartBeat 2s ease-in-out; */
+}
+
+.welcome__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 255px;
+    padding-top: 60px;
+}
+
+.welcome__text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.welcome .btn {
+    padding: 17px 57px; 
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(.7);
+    }
+
+    20% {
+        transform: scale(1.2);
+    }
+
+    40% {
+        transform: scale(.9);
+    }
+
+    60% {
+        transform: scale(1.2);
+    }
+
+    80% {
+        transform: scale(.95);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}

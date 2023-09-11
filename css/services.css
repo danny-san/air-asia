@@ -1,0 +1,55 @@
+@import url('layout/base.css');
+@import url('blocks/top-line.css');
+@import url('blocks/header.css');
+@import url('blocks/logo.css');
+@import url('blocks/menu.css');
+@import url('blocks/contacts.css');
+@import url('blocks/section.css');
+@import url('blocks/service.css');
+@import url('blocks/pager.css');
+@import url('blocks/about.css');
+@import url('blocks/footer.css');
+@import url('blocks/s-networks.css');
+
+.page-content {
+    background: #fff;
+    color: #303030;
+    padding: 100px 0;
+}
+
+.services {
+    margin-bottom: 63px;
+}
+
+.inner-section {
+    background: #fff;
+    color: #1A1B1E;
+    padding: 72px 390px;
+    margin-bottom: 12px;
+}
+
+.inner-section_bg_grey {
+    background: #F4F5F5;
+}
+
+.inner-section__title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 57px;
+}
+
+.partners {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.partners__link {
+    text-decoration: none;
+    display: flex;
+    width: 250px;
+    height: 122px;
+    align-items: center;
+    justify-content: flex-start;
+}

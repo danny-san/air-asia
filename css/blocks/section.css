@@ -1,0 +1,17 @@
+.section {
+    margin-bottom: 140px;
+}
+
+.section-news {
+    margin-bottom: 146px;
+}
+
+.section-about {
+    margin-bottom: 55px;
+}
+
+.section__title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 64px;
+}
